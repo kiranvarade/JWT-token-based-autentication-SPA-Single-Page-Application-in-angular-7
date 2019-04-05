@@ -1,0 +1,9 @@
+<label style="margin-right: 100px">Uname.</label>
+<input type="text" [(ngModel)]="uname">
+
+<br><br>
+<label style="margin-right: 100px">Upwd.</label>
+<input type="password" [(ngModel)]="upwd">
+
+<br><br>
+<button (click)="login({'uname':uname,'upwd':upwd})">Login</button>
